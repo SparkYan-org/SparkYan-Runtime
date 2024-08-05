@@ -1,0 +1,33 @@
+<audio id="dialog-audio" controls>
+    <source src="assets/audios/me_test.wav">
+    Your browser does not support the audio element.
+</audio>
+
+<audio id="bg-audio" controls>
+    <source src="assets/audios/wildfire.mp3">
+    Your browser does not support the audio element.
+</audio>
+
+<script>
+    // 获取音频元素
+    const dialog_audio = document.getElementById("dialog-audio");
+    const bg_audio = document.getElementById("bg-audio");
+
+    // 播放音频
+    function play_BG_audio() {
+        bg_audio.play();
+    }
+
+    function play_dialog_audio() {
+        dialog_audio.play();
+    }
+
+    // 暂停音频
+    function pauseAudio() {
+        dialog_audio.pause();
+    }
+
+    function pauseAudio() {
+        dialog_audio.pause();
+    }
+</script>

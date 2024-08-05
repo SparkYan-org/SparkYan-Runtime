@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1.0 ">
+    <meta name="engine-author" content="MoYanJDC (https://github.com/moyanj)">
+    <meta name="author" content="{{ Game.manifest.author }}">
+    <meta name="engine" content="SparkYan - {{ Engine.version }}">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="{{ Game.manifest.icon }}" rel="icon" />
+    <title>{{ Game.manifest.name }}</title>
+
+    {% block css %}{% endblock css %}
+    {% block header %}{% endblock header %}
+
+</head>
+
+<body>
+    {% block content %}
+    {% endblock content %}
+    
+    {% block js %}{% endblock js %}
+</body>
+
+</html>
+
+
+<body>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
